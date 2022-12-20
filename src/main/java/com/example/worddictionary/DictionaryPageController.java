@@ -30,7 +30,7 @@ public class DictionaryPageController {
             alert.showAndWait();
         }
         else if(db.dictionaryList.containsKey(search.getText().toLowerCase())) {
-            alert.setContentText("New Word is available in the dictionary");
+            alert.setContentText("Word is available in the dictionary");
             alert.showAndWait();
         }else{
             alert.setContentText("Word is not Available in the Dictionary");

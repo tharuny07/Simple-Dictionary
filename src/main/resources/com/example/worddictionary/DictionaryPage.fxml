@@ -20,16 +20,16 @@
     </ImageView>
         <Text layoutX="170.0" layoutY="80.0"> Search a Word</Text>
        <TextField fx:id="search" layoutY="90.0" layoutX="170.0" minWidth="20" minHeight="30" promptText="search"></TextField>
-        <Button layoutX="400.0" layoutY="90.0" text="Search" onMouseClicked="#SearchButton"></Button>
+        <Button layoutX="400.0" layoutY="90.0" text="Search" minWidth="40" minHeight="30" onMouseClicked="#SearchButton"></Button>
 
         <Text layoutX="170.0" layoutY="180.0"> Add a New Word</Text>
-        <TextField fx:id="newword" layoutY="190.0" layoutX="170.0" promptText="Add a New Word"></TextField>
+        <TextField fx:id="newword" layoutY="190.0" layoutX="170.0" minWidth="20" minHeight="30" promptText="Add a New Word"></TextField>
         <TextField fx:id="meaning" layoutY="230.0" layoutX="170.0" promptText="Add Meaning"></TextField>
-        <Button layoutX="400.0" layoutY="215.0" text="Add" onMouseClicked="#Add"></Button>
+        <Button layoutX="400.0" layoutY="213.0" text="Add" minWidth="50" minHeight="30" onMouseClicked="#Add"></Button>
 
         <Text layoutX="170.0" layoutY="340.0"> Find Meaning</Text>
-        <TextField fx:id="findword" layoutY="350.0" layoutX="170.0" promptText="Find Meaning"></TextField>
-        <Button layoutX="400.0" layoutY="350.0" text="Meaning"  onMouseClicked="#Meaning"></Button>
+        <TextField fx:id="findword" layoutY="350.0" layoutX="170.0" minWidth="20" minHeight="30" promptText="Find Meaning"></TextField>
+        <Button layoutX="400.0" layoutY="350.0" text="Meaning" minWidth="60" minHeight="30"  onMouseClicked="#Meaning"></Button>
 
     </children>
 </AnchorPane>
